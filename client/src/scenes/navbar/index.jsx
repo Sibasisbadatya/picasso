@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Picasso
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
