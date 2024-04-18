@@ -55,7 +55,7 @@ app.use("/posts", postRoutes);
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 3001;
 mongoose
-  .connect("mongodb+srv://sibasis12112002:dRT9cSo6TR9hOPB0@cluster0.qp6mo41.mongodb.net/?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://sibasisbadatya:KHGM8EpxXyIoABFI@picasso.l5iaiqj.mongodb.net/?retryWrites=true&w=majority&appName=picasso", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
